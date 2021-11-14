@@ -31,6 +31,7 @@ We can place a .htaccess file into a folder we wish to protect via a password.  
 - Write a simple index.html file that contains some potentially confidential information i.e. A list of internal department phone numbers
 - Place a .htaccess file in the `Dev` directory which requires a password to view the contents of the directory
 - Test your .htaccess file locally
+- (Need to modify /etc/apache2/apache2.conf file under the /var/www directory part to "AllowOverride All" in order to enable the passcode.)  
 
 # Hosting Multiple Domains
 Apache vHost files allow us to serve multiple websites/web applications from one server. One way is with [Name Based](https://httpd.apache.org/docs/2.4/vhosts/name-based.html) routing, whcih the server relies on the client to report the hostname as part of the HTTP headers. Using this technique, many different hosts can share the same IP address. A second option is [IP Based](https://httpd.apache.org/docs/2.4/vhosts/ip-based.html) routing IP-based is a method to apply different directives based on the IP address and port a request is received on. Most commonly, this is used to serve different websites on different ports or interfaces.
