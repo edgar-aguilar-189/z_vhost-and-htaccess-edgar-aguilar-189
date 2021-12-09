@@ -1,0 +1,9 @@
+Name: Edgar Aguilar
+Lab Name: Z_vhost-and-htaccess
+Date Assigned: Nov 3, 2021
+Date Completed: Nov 13, 2021
+Status: Completed.
+
+Outstanding Issues: None.
+Major Impediments: For me the .htaccess file would work and then not work. I think this may have been some type of cookie/cache issue.
+Feedback Comments: None. 
